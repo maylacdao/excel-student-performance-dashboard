@@ -53,6 +53,8 @@ The format/final output for the dashboard is as follows:
 
 ![alt text](images/studentperformancedash.png)
 
+To see the formulas used to generate the dashboard, see [Data Analysis](analysis/Student_Performance_Analysis.xlsx).
+
 ## Contact
 
 Email: [may.lacdao@gmail.com]
