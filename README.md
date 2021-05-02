@@ -1,7 +1,5 @@
 # Dashboard for Data Analysis and Visualization using MS Excel
 
-![alt text](images/studentperformancedash.png)
-
 Dataset: [Student Performance Data](data/Dataset_Student_Performance.csv)
 
 ## Objectives
@@ -27,9 +25,33 @@ Format header row to make it distinguishable from the rest of the data (suggest 
 
 Make adjustments to make the data easier to view (i.e. center-aligning, adjusting column widths, etc.)
 
-### Data Analysis
+### Data Analysis & Dashboard Creation
 
+**Step 1 - Create New Columns for Analysis Results**
 
+We will need the following information:
+
+- average score for each student
+- indication of "pass/fail" for each student
+- letter grade for each student
+
+Obtain the average score for each student by using the formula for average and round it up as well for a cleaner presentation (=ROUND(AVERAGE(E2:G2),0)).
+
+Using the "IF" formula, determine whether the student's average score qualifies as a "pass" or "fail" (=IF(H2>=50,"Pass","Fail")).
+
+For the letter grade, we can use "IFS" formula to give each student a corresponding letter grade(=IFS(H2>=80,"A",H2>=70,"B",H2>=60,"C",H2>=50,"D",H2<50,"F")).
+
+Use the fill handle to populate the other rows.
+
+For a quick visual inspection, I added a conditional formatting using icon sets on all the numerical values on the "Data" worksheet.
+
+**Step 2 - Generate Report/Dashboard**
+
+Create a new worksheet and rename it to "Report"/"Dashboard" or whatever you may prefer.
+
+The format/final output for the dashboard is as follows:
+
+![alt text](images/studentperformancedash.png)
 
 ## Contact
 
