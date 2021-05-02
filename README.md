@@ -14,7 +14,7 @@ The original dataset is saved in XLSX format, to (1) preserve the integrity of t
 
 **Step 2 - Clean data**
 
-## Contact
+Format header row to make it distinguishable from the rest of the data (suggest making the font bold and adding a cell fill). You can also freeze the header row to keep it visible while you scroll down the file. Add filters to the data (Ctrl/Cmd + Shift + L).
 
 Email: [may.lacdao@gmail.com]
 
