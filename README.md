@@ -28,6 +28,9 @@ Format header row to make it distinguishable from the rest of the data (suggest 
 Make adjustments to make the data easier to view (i.e. center-aligning, adjusting column widths, etc.)
 
 **Step 3 - Analyze Data to Answer the Questions**
+
+## Contact
+
 Email: [may.lacdao@gmail.com]
 
 Linkedin: [Connect with me!](https://www.linkedin.com/in/maylacdao/)
