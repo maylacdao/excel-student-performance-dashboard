@@ -2,7 +2,7 @@
 
 ![alt text](images/studentperformancedash.png)
 
-Dataset: [Student Performance Data](data/Dataset_Student Performance.csv)
+Dataset: [Student Performance Data](data/Dataset_Student_Performance.csv)
 
 ## Objectives
 
